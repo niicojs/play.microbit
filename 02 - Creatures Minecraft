@@ -1,0 +1,135 @@
+input.onButtonPressed(Button.A, function () {
+    basic.showLeds(`
+        # # # # #
+        # . # . #
+        # # # # #
+        # # . # #
+        # # # # #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        # # # # #
+        . . # . .
+        # # # # #
+        # . . . #
+        # # # # #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        # # # # #
+        . . # . .
+        # # # # #
+        # # # # #
+        # # # # #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        # # # # #
+        . . # . .
+        # # # # #
+        . . # . .
+        # # # # #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        # # # # #
+        # . # . #
+        # # . # #
+        # . . . #
+        # . # . #
+        `)
+    basic.showString("MONSTRE")
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showLeds(`
+        # # # # #
+        . . # . .
+        # # # # #
+        # . # . #
+        # # # # #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        # # # # #
+        # # . # #
+        # . . . #
+        # . # . #
+        # # # # #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        # # # # #
+        # . # . #
+        # # # # #
+        # . . . #
+        # # # # #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        # # # # #
+        # # # # #
+        # . # . #
+        # # # # #
+        # . . . #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        . # . # .
+        # # # # #
+        # . # . #
+        # # # # #
+        # . . . #
+        `)
+    basic.showString("ANIMAUX")
+})
+basic.forever(function () {
+	
+})
